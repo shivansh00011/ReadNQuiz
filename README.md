@@ -8,43 +8,43 @@ ReadNQuiz is a comprehensive Flutter application that transforms how users inter
 
 **User Authentication:**
 
-Secure login and registration powered by Firebase Authentication
+   * Secure login and registration powered by Firebase Authentication.
 
-User profile management and document history
+   * User profile management and document history.
 
-Persistent sessions across devices
+   * Persistent sessions across devices.
 
 **PDF Management:** 
 
-Upload and store PDFs securely
+   * Upload and store PDFs securely.
 
-Organize documents in personalized collections
+   * Organize documents in personalized collections.
 
 **Smart FAQ Generation:** 
 
-Automatically extract and generate frequently asked questions from uploaded PDFs
+   * Automatically extract and generate frequently asked questions from uploaded PDFs.
 
-Key concept identification for study focus
+   * Key concept identification for study focus.
 
-Export FAQs for offline reference
+   * Export FAQs for offline reference.
 
 **AI-Powered Quiz Generator:**
 
-Create custom quizzes from any uploaded PDF
+   * Create custom quizzes from any uploaded PDF.
 
-Multiple question formats (multiple choice)
+   * Multiple question formats (multiple choice).
 
-Quiz performance tracking and analytics
+   * Quiz performance tracking and analytics.
     
 **Conversational PDF Interface (RAG System):**
 
-Ask natural language questions about your PDF content
+   * Ask natural language questions about your PDF content.
 
-Get precise answers with relevant context
+   * Get precise answers with relevant context.
 
-Support for complex, multi-part questions
+   * Support for complex, multi-part questions.
 
-Smart response handling when information isn't in the document
+   * Smart response handling when information isn't in the document.
 
 ### 🛠️ Tech Stack
 
@@ -52,9 +52,9 @@ Smart response handling when information isn't in the document
 
 **Backend:** – 
 
-FastAPI for the RAG system and quiz generation.
+   * FastAPI for the RAG system and quiz generation.
 
-Firebase for authentication and document storage.
+   * Firebase for authentication and document storage.
 
 **AI/ML:** – 
 
@@ -62,11 +62,11 @@ Google Gemini for context-aware quiz generation
  
 Custom RAG implementation using:
 
-   * FAISS for vector similarity search
+   * FAISS for vector similarity search.
 
-   * HuggingFace embeddings (all-MiniLM-L6-v2)
+   * HuggingFace embeddings (all-MiniLM-L6-v2).
 
-   * Text chunk processing and retrieval optimization
+   * Text chunk processing and retrieval optimization.
 
 ### 🚀 Getting Started
 
@@ -99,11 +99,11 @@ flutter pub get
 
 **Configure environment variables:**
 
-Create a .env file in the backend directory
+   * Create a .env file in the backend directory
 
-Add your Gemini API key: GOOGLE_API_KEY=your_key_here
+   * Add your Gemini API key: GOOGLE_API_KEY=your_key_here
 
-Add your Firebase configuration settings
+   * Add your Firebase configuration settings
 
 **Run the backend server:**
 
@@ -129,7 +129,15 @@ The RAG system works in two phases:
 
 **Indexing Phase:** When a PDF is uploaded, it's processed, chunked, embedded, and stored in a vector database.
 
-**Query Phase:** When a question is asked, it retrieves relevant chunks from the vector database, constructs context, and generates an answer using Google Gemini
+**Query Phase:** When a question is asked, it retrieves relevant chunks from the vector database, constructs context, and generates an answer using Google Gemini.
+
+<img width="662" alt="Screenshot 2025-04-22 at 10 55 46 AM" src="https://github.com/user-attachments/assets/761fa25a-88df-4c59-adb2-aded95d0cead" />
+
+### Project Video:
+
+https://github.com/user-attachments/assets/56e5e2ef-6236-45a9-89f9-86809c0d5c87
+
+
 
 ### 🤝 Contributions
 
