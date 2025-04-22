@@ -125,7 +125,7 @@ $text
 ''';
 
     final url = Uri.parse(
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAsyjvx7fdAbrH2RFqL8p3YjfR-zE4tzjk',
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_GOOGLE_API_KEY',
     );
 
     final response = await http.post(
@@ -231,7 +231,7 @@ $_extractedText
 ''';
 
       final url = Uri.parse(
-        'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAsyjvx7fdAbrH2RFqL8p3YjfR-zE4tzjk',
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_GOOGLE_API_KEY',
       );
 
       final response = await http.post(
