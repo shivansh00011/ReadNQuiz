@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "867203335749",
+    "project_id": "readnquiz-8c42d",
+    "storage_bucket": "readnquiz-8c42d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867203335749:android:4d9308cc1c0e3b9f23452c",
+        "android_client_info": {
+          "package_name": "com.example.readnquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlY6Cb-aP1YIMoXRG6-i1K6yesWKaXnF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
